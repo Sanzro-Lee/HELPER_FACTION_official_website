@@ -1,26 +1,23 @@
 import React from 'react';
-import logo from './logo.svg';
+import Header from './components/Header/Header'
+import Banner from './components/Banner/Banner'
+import KingKongArea from './components/KingKongArea/KingKongArea'
+import FunInfo from './components/FunInfo/FunInfo'
+import Footer from './components/Footer/Footer'
+
 import './App.css';
 
+
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+    return (
+      <div className="App">
+        <Header />
+        <Banner />
+        <KingKongArea />
+        <FunInfo />
+        <Footer />
+      </div>
+    );
 }
 
 export default App;

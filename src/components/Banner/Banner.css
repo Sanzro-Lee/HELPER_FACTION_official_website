@@ -1,0 +1,13 @@
+.banner-main {
+    display: flex;
+    justify-content: center;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+.banner {
+    width: 90%;
+    height: 30vw;
+    border-radius: 48px;
+    background: linear-gradient(to bottom right, #5fd8a5, #a9dea6);
+}

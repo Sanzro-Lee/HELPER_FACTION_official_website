@@ -1,0 +1,31 @@
+.funinfo-main {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+.funinfo {
+    width: 600px;
+    height: 600px;
+}
+
+.funinfo-01 {
+    border-radius: 50%;
+    background: linear-gradient(to bottom, #f9f8b8, #f9f6a7);
+}
+
+.funinfo-02 {
+    /* position: absolute; */
+    /* right: 10%; */
+    border-radius: 50%;
+    background: linear-gradient(to bottom, #f9f8b8, #f9f6a7);
+}
+
+.funinfo-img {
+    width: 900px;
+    height: 650px;
+    border-radius: 50px;
+}

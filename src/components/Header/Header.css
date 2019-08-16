@@ -1,0 +1,12 @@
+@import '~antd/dist/antd.css';
+
+.menu-main {
+    display: flex;
+    justify-content: center;
+    background: linear-gradient(to top right, #ddd647, #e4e2bc);
+    color: white;
+}
+
+.menu-item {
+    margin-right: 30px;
+}

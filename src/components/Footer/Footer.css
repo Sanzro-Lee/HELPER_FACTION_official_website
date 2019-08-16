@@ -1,0 +1,41 @@
+.footer-main {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 20%;
+    padding-right: 20%;
+    padding-top: 4%;
+    bottom: 0px;
+    width: 100%;
+    height: 600px;
+    background: #527fb6;
+    border-top-left-radius: 40px;
+    border-top-right-radius: 40px;
+}
+
+.footer-main h1 {
+    color: #b8cce3;
+}
+
+.about-us, .contact-us {
+    font-size: 1.5vw;
+    font-weight: 300;
+    color: #b8cce3;
+    letter-spacing: 5px;
+}
+
+.about-us {
+    margin-right: 20%;
+    line-height: 300%;
+}
+
+.contact-us {
+    line-height: 240%;
+}
+
+.copy-right {
+    position: absolute;
+    bottom: -2950px;
+    font-size: 1vw;
+    font-weight: 300;
+    color: #8ba9cf;
+}

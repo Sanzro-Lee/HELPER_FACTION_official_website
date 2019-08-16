@@ -1,0 +1,30 @@
+.kingkongarea-main {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+.kingkongarea {
+    width: 420px;
+    height: 280px;
+    border-radius: 30px;
+}
+
+.KKA-01 {
+    background: linear-gradient(to bottom right, #a87fff, #726dff);
+}
+
+.KKA-02 {
+    background: linear-gradient(to bottom right, #ff8786, #f8c598);
+}
+
+.KKA-03 {
+    background: linear-gradient(to bottom right, #f7b2bd, #9875db);
+}
+
+.KKA-04 {
+    background: linear-gradient(to bottom right, #44dec4, #4dbef8);
+}
