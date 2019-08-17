@@ -10,4 +10,5 @@
     height: 30vw;
     border-radius: 48px;
     background: linear-gradient(to bottom right, #5fd8a5, #a9dea6);
+    box-shadow: 0 20px 30px #bceace;
 }

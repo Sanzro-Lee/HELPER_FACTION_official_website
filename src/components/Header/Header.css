@@ -6,8 +6,9 @@
     position: fixed;
     width: 100%;
     margin-top: -102px;
-    background: linear-gradient(to top right, #ddd647, #e4e2bc);
     color: white;
+    background: linear-gradient(to top right, #ddd647, #e4e2bc);
+    box-shadow: 0 5px 5px #e9e8d3;
 }
 
 .menu-item {

@@ -15,16 +15,20 @@
 
 .KKA-01 {
     background: linear-gradient(to bottom right, #a87fff, #726dff);
+    box-shadow: 0 20px 30px #aaa3ff;
 }
 
 .KKA-02 {
     background: linear-gradient(to bottom right, #ff8786, #f8c598);
+    box-shadow: 0 20px 30px #f8cabd;
 }
 
 .KKA-03 {
     background: linear-gradient(to bottom right, #f7b2bd, #9875db);
+    box-shadow: 0 20px 30px #d4b8e1;
 }
 
 .KKA-04 {
     background: linear-gradient(to bottom right, #44dec4, #4dbef8);
+    box-shadow: 0 20px 30px #90ddeb;
 }

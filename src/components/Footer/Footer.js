@@ -1,4 +1,5 @@
 import React from 'react';
+import { Icon } from 'antd';
 
 import './Footer.css';
 
@@ -17,13 +18,13 @@ class Footer extends React.Component {
             <section className="contact-us">
                 <h1>联系我们：</h1>
                 <p>
-                    13631487166
+                    <Icon type="phone" theme="filled" />：13631487166
                 </p>
                 <p>
-                    G6-Power
+                    <Icon type="wechat" theme="filled" />：G6-Power
                 </p>
                 <p>
-                    3340994287
+                    <Icon type="qq" />：3340994287
                 </p>
             </section>
             <section className="copy-right">
