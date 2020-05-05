@@ -1,0 +1,17 @@
+.ant-layout-content {
+    background: #fff;
+}
+
+.headerStyle {
+    background: linear-gradient(to top right, #ddd647, #e4e2bc);
+}
+
+.ant-layout {
+    background: none;
+}
+
+.footerStyle {
+    background:#366AAA;
+    border-radius: 50px 50px 0 0;
+    color: #FFFFFF;
+}

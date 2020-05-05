@@ -1,34 +1,32 @@
-.funinfo-main {
-    display: flex;
-    justify-content: space-between;
-    margin-top: 5%;
-    margin-bottom: 5%;
-    padding-left: 5%;
-    padding-right: 5%;
+.fontSet {
+    width: 100%;
+    font-size: 3vh;
+    text-align: center;
+    margin-top: 8vw;
+    padding-top: 6vw;
 }
 
-.funinfo {
-    width: 600px;
-    height: 600px;
-}
-
-.funinfo-01 {
-    border-radius: 50%;
-    background: linear-gradient(to bottom, #f9f8b8, #f9f6a7);
-    box-shadow: 0 20px 30px #fcfad3;
-}
-
-.funinfo-02 {
-    /* position: absolute; */
-    /* right: 10%; */
+.img_style {
+    width: 30vw;
+    min-height: 30vw;
     border-radius: 50%;
     background: linear-gradient(to bottom, #f9f8b8, #f9f6a7);
     box-shadow: 0 20px 30px #fcfad3;
 }
 
 .funinfo-img {
-    width: 850px;
-    height: 650px;
-    border-radius: 50px;
+    width: 40vw;
+    height: 30vw;
+    border-radius: 3vw;
     box-shadow: 0 20px 30px #f6efef;
+}
+
+.bgManagerStyle {
+    margin-top: 10vw;
+    margin-bottom: 10vw;
+}
+
+.weAppIns {
+    margin-top: 5vw;
+    margin-bottom: 10vw;
 }

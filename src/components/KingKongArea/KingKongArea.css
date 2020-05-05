@@ -1,34 +1,48 @@
 .kingkongarea-main {
-    display: flex;
-    justify-content: space-between;
-    margin-top: 5%;
-    margin-bottom: 5%;
-    padding-left: 5%;
-    padding-right: 5%;
+    margin-bottom: 5vw;
+    flex-wrap: wrap;
 }
 
 .kingkongarea {
-    width: 420px;
-    height: 280px;
-    border-radius: 30px;
+    min-width: 21.3rem;
+    height: 17rem;
+    border-radius: 2vw;
+    font-size: 1.8em;
+    color: #fff;
+    margin-top: 20px;
 }
 
 .KKA-01 {
     background: linear-gradient(to bottom right, #a87fff, #726dff);
-    box-shadow: 0 20px 30px #aaa3ff;
+    box-shadow: 0 8px 30px #aaa3ff;
 }
 
 .KKA-02 {
     background: linear-gradient(to bottom right, #ff8786, #f8c598);
-    box-shadow: 0 20px 30px #f8cabd;
+    box-shadow: 0 8px 30px #f8cabd;
 }
 
 .KKA-03 {
     background: linear-gradient(to bottom right, #f7b2bd, #9875db);
-    box-shadow: 0 20px 30px #d4b8e1;
+    box-shadow: 0 8px 30px #d4b8e1;
 }
 
 .KKA-04 {
     background: linear-gradient(to bottom right, #44dec4, #4dbef8);
-    box-shadow: 0 20px 30px #90ddeb;
+    box-shadow: 0 8px 30px #90ddeb;
+}
+
+.mainWord {
+    padding: 30px 0 0 1rem;
+}
+
+.cutline {
+    margin-top: 40px;
+    color: #DDE1EE;
+}
+
+.insWords {
+    margin-top: 40px;
+    margin-left: 1rem;
+    text-align: left;
 }

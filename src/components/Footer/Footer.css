@@ -1,42 +1,19 @@
+h1 {
+    color: #FFFFFF;
+}
+
 .footer-main {
-    display: flex;
-    justify-content: space-between;
-    padding-left: 20%;
-    padding-right: 20%;
-    padding-top: 4%;
-    bottom: 0;
-    width: 100%;
-    height: 400px;
-    background: #527fb6;
-    border-top-left-radius: 40px;
-    border-top-right-radius: 40px;
-    box-shadow: 0 -20px 30px #b2cbe7;
+    background: #366AAA;
+    margin-top: 50px;
+    font-size: 18px;
 }
 
-.footer-main h1 {
-    color: #b8cce3;
+.copy-right img {
+    height: 8rem;
 }
 
-.about-us, .contact-us {
-    font-size: 1vw;
-    font-weight: 300;
-    color: #b8cce3;
-    letter-spacing: 5px;
-}
-
-.about-us {
-    margin-right: 20%;
-    line-height: 300%;
-}
-
-.contact-us {
-    line-height: 240%;
-}
-
-.copy-right {
-    position: absolute;
-    bottom: -2712px;
-    font-size: .8vw;
-    font-weight: 300;
-    color: #8ba9cf;
+.bottomWord {
+    text-align: center;
+    margin-top: 60px;
+    font-size: 26px;
 }

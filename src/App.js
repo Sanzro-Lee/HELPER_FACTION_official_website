@@ -1,22 +1,32 @@
-import React from 'react';
-import Header from './components/Header/Header'
+import React from 'react'
+import { Layout, BackTop } from 'antd'
+import HeaderCus from './components/Header/Header'
 import Banner from './components/Banner/Banner'
 import KingKongArea from './components/KingKongArea/KingKongArea'
 import FunInfo from './components/FunInfo/FunInfo'
-import Footer from './components/Footer/Footer'
+import FooterCus from './components/Footer/Footer'
 
 import './App.css';
 
-
 function App() {
+  const { Header, Content, Footer } = Layout;
     return (
-      <div className="App">
-        <Header />
-        <Banner />
-        <KingKongArea />
-        <FunInfo />
-        <Footer />
-      </div>
+      <Layout>
+        <Header className="headerStyle">
+          <HeaderCus />
+        </Header>
+        <Layout>
+          <Content>
+            <Banner />
+            <KingKongArea />
+            <FunInfo />
+          </Content>
+        </Layout>
+        <Footer className="footerStyle">
+          <FooterCus />
+        </Footer>
+        <BackTop />
+      </Layout>
     );
 }
 

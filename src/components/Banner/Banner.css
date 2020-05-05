@@ -1,14 +1,19 @@
-.banner-main {
-    display: flex;
-    justify-content: center;
-    margin-top: 5%;
-    margin-bottom: 5%;
+.banner_img {
+    margin-left: 3vw;
+    height: 40vw;
+    border-radius: 2vw;
+    background: linear-gradient(to bottom right, #5fd8a5, #a9dea6);
+    /* box-shadow: 0 20px 30px #bceace; */
 }
 
-.banner {
-    width: 90%;
-    height: 30vw;
-    border-radius: 48px;
-    background: linear-gradient(to bottom right, #5fd8a5, #a9dea6);
-    box-shadow: 0 20px 30px #bceace;
+.ant-carousel .slick-slide {
+    text-align: center;
+    height: 40vw;
+    line-height: 160px;
+    overflow: hidden;
+    margin: 4vw 0 4vw 0;
+}
+  
+.ant-carousel .slick-slide h3 {
+    color: #333;
 }

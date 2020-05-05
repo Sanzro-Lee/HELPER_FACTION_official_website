@@ -1,16 +1,8 @@
 @import '~antd/dist/antd.css';
 
 .menu-main {
-    display: flex;
-    justify-content: center;
-    position: fixed;
     width: 100%;
-    margin-top: -102px;
-    color: white;
-    background: linear-gradient(to top right, #ddd647, #e4e2bc);
-    box-shadow: 0 5px 5px #e9e8d3;
-}
-
-.menu-item {
-    margin-right: 30px;
+    color: #fff;
+    background: none;
+    text-align: center;
 }
