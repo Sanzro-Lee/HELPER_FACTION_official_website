@@ -10,24 +10,25 @@ import './App.css';
 
 function App() {
   const { Header, Content, Footer } = Layout;
-    return (
+
+  return (
+    <Layout>
+      <Header className="headerStyle">
+        <HeaderCus />
+      </Header>
       <Layout>
-        <Header className="headerStyle">
-          <HeaderCus />
-        </Header>
-        <Layout>
-          <Content>
-            <Banner />
-            <KingKongArea />
-            <FunInfo />
-          </Content>
-        </Layout>
-        <Footer className="footerStyle">
-          <FooterCus />
-        </Footer>
-        <BackTop />
+        <Content>
+          <Banner />
+          <KingKongArea />
+          <FunInfo />
+        </Content>
       </Layout>
-    );
+      <Footer className="footerStyle">
+        <FooterCus />
+      </Footer>
+      <BackTop />
+    </Layout>
+  );
 }
 
 export default App;
