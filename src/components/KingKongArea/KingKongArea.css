@@ -32,8 +32,12 @@
     box-shadow: 0 8px 30px #90ddeb;
 }
 
+.insTitle {
+    margin-left: 10px;
+}
+
 .mainWord {
-    padding: 30px 0 0 1rem;
+    padding: 30px 0 0 1.4rem;
 }
 
 .cutline {
@@ -43,6 +47,6 @@
 
 .insWords {
     margin-top: 40px;
-    margin-left: 1rem;
+    margin-left: 1.4rem;
     text-align: left;
 }

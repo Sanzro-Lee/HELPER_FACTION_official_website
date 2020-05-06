@@ -12,7 +12,7 @@ class KingKongArea extends React.Component {
           <Col className="kingkongarea KKA-01" xs={{ span: 4, offset: 1 }} lg={{ span: 4, offset: 1 }}>
             <div className="mainWord">
               <SendOutlined />
-              <span>解放自我</span>
+              <span className="insTitle">解放自我</span>
             </div>
             <Divider className="cutline" />
             <div className="insWords">
@@ -23,7 +23,7 @@ class KingKongArea extends React.Component {
           <Col className="kingkongarea KKA-02" xs={{ span: 4, offset: 1 }} lg={{ span: 4, offset: 1 }}>
               <div className="mainWord">
                 <RocketOutlined />
-                <span>随时随地</span>
+                <span className="insTitle">随时随地</span>
               </div>
               <Divider className="cutline" />
               <div className="insWords">
@@ -33,7 +33,7 @@ class KingKongArea extends React.Component {
           <Col className="kingkongarea KKA-03" xs={{ span: 4, offset: 1 }} lg={{ span: 4, offset: 1 }}>
               <div className="mainWord">
                 <MessageOutlined />
-                <span>自带短信系统</span>
+                <span className="insTitle">自带短信系统</span>
               </div>
               <Divider className="cutline" />
               <div className="insWords">
@@ -44,7 +44,7 @@ class KingKongArea extends React.Component {
           <Col className="kingkongarea KKA-04" xs={{ span: 4, offset: 1 }} lg={{ span: 4, offset: 1 }}>
               <div className="mainWord">
                 <LikeOutlined />
-                <span>活用自己的技能</span>
+                <span className="insTitle">活用自己的技能</span>
               </div>
               <Divider className="cutline" />
               <div className="insWords">
