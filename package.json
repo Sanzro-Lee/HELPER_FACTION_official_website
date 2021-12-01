@@ -10,6 +10,7 @@
     "elliptic": "6.5.4",
     "glob-parent": "5.1.2",
     "is-svg": "4.2.2",
+    "json-schema": "^0.4.0",
     "lodash": "4.17.21",
     "merge-deep": "3.0.3",
     "moment": "^2.27.0",
