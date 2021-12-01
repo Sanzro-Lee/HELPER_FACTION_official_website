@@ -32,13 +32,13 @@
 cd HELPER_FACTION_official_website
 
 ## 安装依赖
-npm i
+yarn install
 
 # development
-npm run start
+yarn run start
 
 # production
-npm run build
+yarn run build
 ```
 
 运行 ``npm run start`` 命令后，您电脑上的默认浏览器会自动打开，默认为``localhost:8080``，如果运行的是``npm run build``，则需手动打开 ``src/dist`` 文件夹 📁，双击 ``index.html``，即可预览效果。
